@@ -1,0 +1,94 @@
+
+/* Allgemein */
+.fl { float: left; }
+.fr { float: right; }
+
+.tac { text-align: center; }
+.tar { text-align: right; }
+.tal { text-align: left; }
+
+.ml20 { margin-left: 20px; }
+.mr20 { margin-right: 20px; }
+
+.Clear{ clear:both; }
+
+.bbr { border-bottom: 1px solid #000000; border-right: 1px solid #000000; }
+.br { border-right: 1px solid #000000; }
+
+.resizeTrue { resize: both;}
+
+/* Kennzeichner für Felder */
+.labeling { font-size: 13px; font-style: italic; }
+.elem_labeling { float: left; text-align: center; width: 99px; height: 40px; line-height: 20px; font-size: 13px; font-style: italic; }
+
+/* die drei Hauptpanels */
+#Panel-Elements {
+    float: left;
+    width: 199px;
+    border-left: 1px solid #000000;
+}
+#Panel-MockUp {
+    background-color: #67b168;
+    float: left;
+    width: 920px;
+}
+#Panel-View {
+    float: left;
+    width: 180px;
+}
+
+/* Panel-Elements */
+.add_element {
+    float: left;
+    width: 99px;
+    height: 79px;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    z-index: 999;
+}
+
+.wd_button   { background-color: lime; font-size: 40px; }
+.wd_div      { background-color: lime; font-size: 40px; }
+.wd_radio    { background-color: lime; font-size: 40px; }
+.wd_check    { background-color: lime; font-size: 40px; }
+.wd_input    { background-color: lime; font-size: 40px; }
+.wd_label    { background-color: lime; font-size: 40px; }
+.wd_dropdown { background-color: lime; font-size: 40px; }
+
+
+
+/* Panel-MockUp */
+#actionline_top {
+    float: left;
+}
+
+#tabs {
+
+}
+.tab {
+    height: 460px;
+}
+
+#actionline_bot {
+    float: left;
+}
+
+
+
+/* Panel-View */
+#TreeStructure {
+    background-color: #d58512;
+}
+
+
+/* ElementConfig */
+#ElementConfig {
+    display: none;
+    position:absolute;
+    width: 240px;
+    border: 1px solid #000000;
+    z-index: 5;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
